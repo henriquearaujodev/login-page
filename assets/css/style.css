@@ -191,8 +191,8 @@ body {
 
 .background-image img {
   width: 60rem;
+  margin-top: 15rem;
   margin-left: -10rem;
-  margin-top: 20rem;
 }
 
 .register {
@@ -232,7 +232,7 @@ body {
   top: 5rem;
   right: -30rem;
   transition: all 0.4s ease-in-out;
-  z-index: 5;
+  z-index: 20;
 }
 
 .menu-mobile ul {
@@ -279,13 +279,13 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: var(--overlay);
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(2px);
   position: absolute;
   top: 5rem;
   opacity: 0;
-  z-index: -1;
-  /* display: none; */
-  transition: 0.2s ease-out;
+  z-index: 15;
+  display: none;
+  transition: all 0.2s ease-out;
 }
 
 .open {
