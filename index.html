@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Login page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">Razor</div>
+        <div class="menu">
+          <ul>
+            <li><img src="./assets/img/world.svg" alt="" /></li>
+            <li><a href="#">Sign up</a></li>
+            <li class="btn">Request Demo</li>
+          </ul>
+
+          <div class="menu-icon">
+            <img class="open-close" src="./assets/img/menu.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="menu-mobile">
+        <ul>
+          <!-- <li><img src="./assets/img/world.svg" alt="" /></li> -->
+          <li class="menu-mobile-item"><a href="#">Sign up</a></li>
+          <li class="menu-mobile-btn">Request Demo</li>
+        </ul>
+      </div>
+      <div class="header">
+        <div class="login">
+          <div class="login-title">
+            <h1>Agente Login</h1>
+            <p>Hey, Enter your details to get sign in to your account</p>
+          </div>
+          <div class="login-form">
+            <form action="#">
+              <span>Email</span>
+              <input type="text" placeholder="Enter Email" />
+              <span>Password</span>
+              <input type="password" placeholder="Enter Password" />
+              <div class="remember">
+                <input type="checkbox" name="check" id="check" />
+                <label class="check" for="check">Remember me</label>
+              </div>
+              <button>Sign in</button>
+            </form>
+          </div>
+          <div class="register">
+            <div>
+              <p>
+                Don't have an account?
+                <span class="cta">Request Now!</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="background-image">
+          <img src="./assets/img/background.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="overlay"></div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
