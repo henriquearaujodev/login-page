@@ -160,7 +160,7 @@ body {
 .login-form form input::placeholder {
   font-size: 1.3rem;
   font-weight: 500;
-  color: #5a5a5a;
+  color: #686868;
 }
 
 .login-form .remember {
