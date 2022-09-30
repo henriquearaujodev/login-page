@@ -6,3 +6,8 @@ menuBtn.addEventListener('click', () => {
   menuMobile.classList.toggle('open');
   overlay.classList.toggle('open-overlay');
 });
+
+overlay.addEventListener('click', () => {
+  menuMobile.classList.toggle('open');
+  overlay.classList.toggle('open-overlay');
+});
